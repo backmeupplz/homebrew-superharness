@@ -1,28 +1,28 @@
 class Superharness < Formula
   desc "Autonomous multi-agent orchestrator for AI coding agents via tmux"
   homepage "https://github.com/backmeupplz/superharness"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.2/superharness-x86_64-apple-darwin"
-      sha256 "74ab69463680506ed273514bf3840b2b7f8bde4e158df416c8decc74de5857c1"
+      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.3/superharness-x86_64-apple-darwin"
+      sha256 "1bde50d197c4fc200e31c52c2a37a7d98ae60ff2f06328ff4f1bfbe0f9a7c604"
     end
     on_arm do
-      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.2/superharness-aarch64-apple-darwin"
-      sha256 "94c46a98fd642832082c9783c09d2407d6cee5eee575ebb22e360a7e601f151a"
+      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.3/superharness-aarch64-apple-darwin"
+      sha256 "7cf9b99ab785ef14236bd4723721c52eb18a2a5029ebace5bbc45fddfa1c790b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.2/superharness-x86_64-unknown-linux-gnu"
-      sha256 "4397e7f5d0fe55318afac6900c69a3b30ff0111358c2a4266daf63e601a30dfe"
+      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.3/superharness-x86_64-unknown-linux-gnu"
+      sha256 "7ce4b6a063d9189fc45ec63316ff0dabe44eae411836e69d6a6802e2aeedbaf8"
     end
     on_arm do
-      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.2/superharness-aarch64-unknown-linux-gnu"
-      sha256 "080bc8b9a673a9856758194162bbce368ce49dcece9420d67a3f0014b0779af7"
+      url "https://github.com/backmeupplz/superharness/releases/download/v0.3.3/superharness-aarch64-unknown-linux-gnu"
+      sha256 "29d8b7a94a0fa4660f04651b5eacfe539cfcd5eefc351e584857b8352b393c62"
     end
   end
 
